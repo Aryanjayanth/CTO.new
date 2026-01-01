@@ -1,6 +1,33 @@
-# Prodify - Your Productivity Companion
+# Prodify - AI-Powered Productivity Platform
 
-A comprehensive, offline-first productivity application built with React, TypeScript, and SQLite.
+A high-tech, offline-first productivity application with seamless animations, glassmorphism UI, and modern design patterns.
+
+## ✨ What's New in v2.0
+
+### 🎨 High-Tech UI Overhaul
+- **Glassmorphism Design**: Modern frosted glass effects with backdrop blur
+- **Gradient Animations**: Dynamic animated backgrounds throughout the app
+- **Neon Glow Effects**: Eye-catching glowing elements for emphasis
+- **Smooth Transitions**: Seamless view switching with elegant animations
+- **Micro-interactions**: Delightful hover effects and button animations
+
+### 🎬 Enhanced Animations
+- View fade-in transitions with ease curves
+- Card hover lift effects with shadow enhancements
+- Button glow sweep animations
+- Icon rotation and scale effects
+- Progress bar smooth animations
+- Staggered list item animations
+- Checkbox bounce animations
+- Modal backdrop fade effects
+
+### 🚀 Improved UX
+- Visual feedback on all interactions
+- Animated empty states with call-to-action
+- Progress indicators with gradient fills
+- Color-coded priority indicators
+- Enhanced modals with gradient headers
+- Better visual hierarchy and spacing
 
 ## 🚀 Features
 
