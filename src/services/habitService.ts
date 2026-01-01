@@ -84,8 +84,9 @@ export const habitService = {
   getStreak(habitId: string): number {
     const today = new Date();
     let streak = 0;
-    let currentDate = new Date(today);
+    const currentDate = new Date(today);
 
+    // eslint-disable-next-line no-constant-condition
     while (true) {
       const dateStr = currentDate.toISOString().split('T')[0];
       const log = this.getLog(habitId, dateStr);

@@ -20,6 +20,7 @@ function App() {
     loadEvents();
     loadHabits();
     loadRoutines();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {

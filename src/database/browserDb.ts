@@ -21,11 +21,14 @@ class BrowserDatabase implements Database {
     localStorage.setItem(key, JSON.stringify(data));
   }
 
-  pragma(_pragma: string): void {
-    // No-op for browser
+  pragma(pragma: string): void {
+    // No-op for browser - pragma is ignored but parameter kept for interface compatibility
+    void pragma;
   }
 
-  exec(_sql: string): void {
+  exec(sql: string): void {
+    // SQL is used for init trigger - parameter kept for interface compatibility
+    void sql;
     // Initialize stores if they don't exist
     const stores = ['tasks', 'subtasks', 'notes', 'events', 'habits', 'habit_logs', 'routines', 'settings'];
     stores.forEach(store => {
