@@ -1,7 +1,7 @@
 {
   "name": "prodify",
-  "version": "1.0.0",
-  "description": "A comprehensive productivity app with tasks, notes, calendar, habits, and more",
+  "version": "2.0.0",
+  "description": "A high-tech productivity app with seamless animations, glassmorphism UI, and advanced features",
   "type": "module",
   "scripts": {
     "dev": "vite",
